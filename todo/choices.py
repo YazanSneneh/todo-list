@@ -8,9 +8,8 @@ class TodoStatus(models.TextChoices):
     IN_PROGRESS = "i", 'In Progress'
 
 
-class TodoPiriority(models.TextChoices):
+class TodoPriority(models.TextChoices):
     LOW = "l", "Low"
     MEDIUM = "m", "Medium"
     HIGH = "h", "High"
     Urgent = "ur", "Urgent"
-    Unknown = "vn", "Unknown"
